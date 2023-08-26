@@ -36,7 +36,7 @@ function makeMove(event) {
         cells[index] = currentPlayer;
         renderBoard();
         if (checkWin(cells, currentPlayer)) {
-            setTimeout(() => alert(`${currentPlayer} выиграли!`), 100);
+            setTimeout(() => alert(`${currentPlayer} win!`), 100);
         } else {
             currentPlayer = currentPlayer === 'X' ? 'O' : 'X';
             if (currentPlayer === 'O') {

@@ -5,6 +5,7 @@ let cells = Array.from({ length: boardSize }, () => '');
 let currentPlayer = 'X';
 
 function createCell(value, row, col) {
+    console.log("createCell")
     const cell = document.createElement('div');
     cell.classList.add('cell');
     cell.textContent = value;

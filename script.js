@@ -29,6 +29,7 @@ function renderBoard() {
 }
 
 function makeMove(event) {
+    console.log("renderBoard")
     const cell = event.target;
     const row = +cell.dataset.row;
     const col = +cell.dataset.col;

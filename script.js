@@ -50,6 +50,7 @@ function makeMove(event) {
 }
 
 function makeComputerMove() {
+    console.log("makeComputerMove")
     const emptyCells = cells.reduce((acc, cell, index) => {
         if (cell === '') {
             acc.push(index);

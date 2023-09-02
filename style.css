@@ -30,7 +30,7 @@ body {
 }
 
 .cell.empty {
-    background-color: #f0f0f0;
+    background-color: #fAfAAA;
     color: transparent;
     cursor: pointer;
 }

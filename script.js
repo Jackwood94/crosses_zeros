@@ -71,6 +71,7 @@ function makeComputerMove() {
 }
 
 function checkWin(board, player) {
+    console.log("checkWin")
     const winningCombos = [
         [0, 1, 2], [3, 4, 5], [6, 7, 8], // Горизонтальные
         [0, 3, 6], [1, 4, 7], [2, 5, 8], // Вертикальные

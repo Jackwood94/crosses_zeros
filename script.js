@@ -88,6 +88,7 @@ function checkWin(board, player) {
 }
 
 function init() {
+    console.log("init")
     renderBoard();
     board.addEventListener('click', makeMove);
 }

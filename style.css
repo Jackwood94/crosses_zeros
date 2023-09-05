@@ -12,8 +12,8 @@ body {
     grid-template-columns: repeat(3, 30vh);
     grid-template-rows: repeat(3, 30vh);
     gap: 5px;
-    width: 300px;
-    height: 300px;
+    width: 30vh;
+    height: 30vh;
 }
 
 .cell {

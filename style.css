@@ -11,7 +11,7 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 30vh);
     grid-template-rows: repeat(3, 30vh);
-    gap: 5px;
+    gap: 0.5vh;
     width: 30vh;
     height: 30vh;
 }
